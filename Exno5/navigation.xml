@@ -39,11 +39,11 @@ android:layout_height="wrap_content"
 <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content" 
-        android:text="20CSE015" android:textSize="20dp"/>
+        android:text="20CSE020" android:textSize="20dp"/>
 <Button
         android:layout_width="match_parent" 
         android:layout_height="wrap_content" 
-        android:text="Nandhini R"
+        android:text="Priya"
         android:textSize="20dp"/>
 <Button
         android:layout_width="match_parent" 
