@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent" android:layout_height="match_parent"
+tools:context=".MainActivity" android:orientation="vertical">
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Nandhini Store" android:layout_gravity="center" android:textSize="30dp" android:textStyle="bold"/>
+<CheckBox android:id="@+id/chips1"
+android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="25dp" android:text="Chips(Rs.30)"/>
+<EditText android:id="@+id/numofchip" android:layout_width="251dp" android:layout_height="wrap_content" android:ems="10" android:textSize="25dp"
+android:inputType="textPersonName"/>
+<CheckBox>
+android:id="@+id/cake1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Cake(Rs.50)" android:textSize="25dp"/>
+<EditText android:id="@+id/numofcake" android:layout_width="248dp" android:layout_height="wrap_content" android:ems="10" android:textSize="25dp"
+android:inputType="textPersonName"/>
+<CheckBox android:id="@+id/cookie1"
+android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Cookies(Rs.100)" android:textSize="25dp"/>
+<EditText android:id="@+id/numofcookies" android:layout_width="248dp" android:layout_height="wrap_content" android:ems="10" android:textSize="25dp" android:inputType="textPersonName"/>
+<CheckBox android:id="@+id/burger1"
+android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Burger(Rs.150)" android:textSize="25dp"/>
+<EditText android:id="@+id/numofburger" android:layout_width="248dp" android:layout_height="wrap_content" android:ems="10" android:textSize="25dp" android:inputType="textPersonName"/>
+<Button
+android:id="@+id/b1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center" android:textSize="25dp" android:text="calculatebill" android:background="#85C1E9"/>
+<TextView android:id="@+id/textView" android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Modeofpayment" android:textSize="25dp"/>
+<RadioGroup android:id="@+id/mode"
+android:layout_width="wrap_content" android:textSize="20dp" android:layout_height="wrap_content">
+<RadioButton android:id="@+id/cash1"
+android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="20dp" android:text="cash"/>
+<RadioButton android:id="@+id/card1"
+android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="20dp" android:text="card"/>
+<RadioButton android:id="@+id/gpay1"
+android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="20dp" android:text="Gpay"/>
+</RadioGroup>
+</LinearLayout>
